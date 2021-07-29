@@ -1,0 +1,6 @@
+(function() {
+    const messages = JSON.parse("{\"qfghlA\":\"Google\",\"ETcy/w\":\"Video not found\",\"yLWiZA\":\"Ctrl\",\"60VG2w\":\"Close\",\"GC3KwA\":\"Facebook\",\"XoXDGA\":\"Try again.\",\"1jmEqg\":\"WeChat Pay\",\"Yi93JQ\":\"Toggle mute\",\"+olYfw\":\"Source\",\"IbileA\":\"Show print bleed\",\"E1H7vQ\":\"Toggle fullscreen (f)\",\"KObNzg\":\"Toggle fullscreen\",\"VSJwUw\":\"(opens in a new tab or window)\",\"QCLTSw\":\"There was an issue on our end.\",\"j6lVrg\":\"Untitled Design\",\"xXWXkw\":\"Image could not be shown\",\"/OrXPQ\":\"Menu\",\"su+r1w\":\"Seek bar\",\"2I+oCQ\":\"Loading\",\"zSuUjw\":\"Toggle mute (m)\",\"GnEy7g\":\"Page {0}\",\"cSn0vw\":\"Play\",\"5vUp+w\":\"Pause\",\"ph76TQ\":\"Image not found\",\"uid63A\":\"Show margins\",\"3wCX+Q\":\"Alipay\",\"LW7DHQ\":\"Dismiss\"}");
+    const cmsg = window["cmsg"] = window["cmsg"] || {};
+    const strings = cmsg["strings"] = cmsg["strings"] || {};
+    strings["en-IN"] = strings["en-IN"] ? Object.assign(strings["en-IN"], messages) : messages;
+})();
